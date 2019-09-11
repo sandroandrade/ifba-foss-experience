@@ -6,7 +6,7 @@ IFBA FOSS Experience
 2. Faça um fork deste repositório no GitHub.
 3. Escolha uma das atividades descritas abaixo.
 4. Faça o git clone do seu fork, implemente a atividade escolhida e submeta o pull request.
-5. Comemory e volte para o passo 3.
+5. Comemore e volte para o passo 3.
 
 # Atividades
 
