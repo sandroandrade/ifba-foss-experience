@@ -6,7 +6,7 @@ IFBA FOSS Experience
 2. Faça um fork deste repositório no GitHub.
 3. Escolha uma das atividades descritas abaixo.
 4. Faça o git clone do seu fork, implemente a atividade escolhida e submeta o pull request.
-5. Comemory e volte para o passo 3.
+5. Comemore e volte para o passo 3.
 
 # Atividades
 
@@ -25,7 +25,7 @@ IFBA FOSS Experience
 
 ## Atividade 2
 **Objetivos:**
-1. Criar uma toolbar com um botao de "Sair" que, ao ser clicado, encerra a aplicação.
+1. Criar uma toolbar com um botão de "Sair" que, ao ser clicado, encerra a aplicação. O ícone a ser utilizado no botão (application-exit.svg) já encontra-se no repositório.
 
 **Meta final:**
 
@@ -35,7 +35,8 @@ IFBA FOSS Experience
 1. Documentação da propriedade header do object type ApplicationWindow (https://doc.qt.io/qt-5/qml-qtquick-controls2-applicationwindow.html#header-prop).
 2. Documentação do object type ToolBar (https://doc.qt.io/qt-5/qml-qtquick-controls2-toolbar.html).
 2. Documentação do object type ToolButton (https://doc.qt.io/qt-5/qml-qtquick-controls2-toolbutton.html).
-3. Documentaçao do Qt Resource System - para armazenar ícones e outros artefatos como parte do executável (https://doc.qt.io/qt-5/resources.html).
+3. Documentação do Qt Resource System - para armazenar ícones e outros artefatos como parte do executável (https://doc.qt.io/qt-5/resources.html).
+4. Qt QML Type - para encerrar a aplicação (https://doc.qt.io/qt-5/qml-qtqml-qt.html).
 
 ## Atividade 3
 **Objetivos:**
