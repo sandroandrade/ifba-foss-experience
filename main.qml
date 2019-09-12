@@ -1,5 +1,6 @@
 import QtQuick 2.13
 import QtQuick.Controls 2.13
+import QtQuick.Layouts 1.13
 
 ApplicationWindow {
    visible: true
@@ -15,5 +16,20 @@ ApplicationWindow {
          width: parent.width
          horizontalAlignment: Text.AlignHCenter
       }
+   }
+
+   header: ToolBar {
+       id: toolbar
+       RowLayout {
+           anchors.fill: parent
+           ToolButton {
+               icon.source: "qrc:application-exit.svg"
+               icon.color: "red"
+               text: qsTr("Sair")
+               height: 100
+               width: window.width
+               onClicked: window.close();
+           }
+       }
    }
 }

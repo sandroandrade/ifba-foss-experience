@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+	<file>application-exit.svg</file>
     </qresource>
 </RCC>
