@@ -19,16 +19,13 @@ ApplicationWindow {
    }
 
    header: ToolBar {
-          RowLayout {
-              anchors.fill: parent
-              ToolButton {
-                  icon{
-                      source: "qrc:///application-exit.svg"
-                      color: "transparent"
-                  }
-                  text: qsTr("Sair")
-                  onClicked: Qt.quit();
-              }
-          }
-      }
+       RowLayout {
+           anchors.fill: parent
+           ToolButton {
+               icon { source: "qrc:///application-exit.svg"; color: "transparent" }
+               text: qsTr("Sair")
+               onClicked: Qt.quit();
+           }
+       }
+   }
 }
