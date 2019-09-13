@@ -8,6 +8,8 @@ ApplicationWindow {
    height: 480
    title: qsTr("IFBA FOSS Experience")
 
+   property var rotationAngle : 360
+
    header: ToolBar {
       RowLayout {
          anchors.fill: parent
