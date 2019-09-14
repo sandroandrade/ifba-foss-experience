@@ -8,8 +8,6 @@ ApplicationWindow {
    height: 480
    title: qsTr("IFBA FOSS Experience")
 
-   property var rotationAngle : 360
-
    header: ToolBar {
       RowLayout {
          anchors.fill: parent
@@ -30,25 +28,19 @@ ApplicationWindow {
          horizontalAlignment: Text.AlignHCenter
       }
    }
-   
-   Rectangle{
-      id: rectangle
+
+   Rectangle {
       width: 100
       height: 100
       color: "red"
       anchors.centerIn: parent
       antialiasing: true
       Behavior on rotation {
-         NumberAnimation{
-            duration: 1000
-         }
+         NumberAnimation { duration: 1000 }
       }
-      MouseArea{
+      MouseArea {
          anchors.fill: parent
-         onClicked: {
-            rectangle.rotation = rotationAngle;
-            rotationAngle = rotationAngle * -1
-         }
+         onClicked: parent.rotation = (parent.rotation == 0) ? 360 : 0
       }
    }
 }
