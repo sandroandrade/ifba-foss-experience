@@ -28,4 +28,19 @@ ApplicationWindow {
          horizontalAlignment: Text.AlignHCenter
       }
    }
+
+   Rectangle {
+      width: 100
+      height: 100
+      color: "red"
+      anchors.centerIn: parent
+      antialiasing: true
+      Behavior on rotation {
+         NumberAnimation { duration: 1000 }
+      }
+      MouseArea {
+         anchors.fill: parent
+         onClicked: parent.rotation = (parent.rotation == 0) ? 360 : 0
+      }
+   }
 }
